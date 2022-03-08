@@ -1,7 +1,7 @@
 # ZMQ Pub-Sub
 
 This is a simple project that shows how to use ZeroMQ's Pub-Sub to communicate between two programs.
-The __pubish.cpp__ file opens and binds to the pub port and sends out 100 messages.
+The __publish.cpp__ file opens and binds to the pub port and sends out 100 messages.
 The __subscribe.cpp__ file subscribes to the port and prints out messages that it receives.
 
 [ZMQ C++](https://github.com/zeromq/cppzmq).
